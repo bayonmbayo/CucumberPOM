@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-26T16:38:40.266Z",
+        "line": 3,
+        "name": "validate orange HRM Home Page Test",
+        "description": "",
+        "id": ";validate-orange-hrm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13937000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.user_opens_browser() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login Page",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.user_is_on_login_Page() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5589000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs into app",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.user_enters_username_and_password() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate home page title",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.validate_home_page_title() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate logged in username",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.validate_logged_in_username() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2957000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.HomePageSteps.close_the_browser() in file:/C:/Users/bayon/eclipse-workspace/CucumberPOM/target/classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/qa/fearures/orangehrm.feature",
+    "tags": []
+  }
+]
